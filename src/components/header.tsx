@@ -7,7 +7,7 @@ const Header = () => {
         <img
           className="header__logo"
           src="https://source.unsplash.com/random?logo"
-          alt="Logo image"
+          alt="Random logo image"
         />
         <Navigation />
       </header>
