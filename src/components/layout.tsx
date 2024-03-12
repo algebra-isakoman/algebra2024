@@ -1,4 +1,4 @@
-import { ReactNode } from "react";
+import { Fragment, ReactNode } from "react";
 
 type Props = {
   children: ReactNode;
@@ -6,9 +6,9 @@ type Props = {
 
 const Layout = ({ children }: Props) => {
   return (
-    <>
+    <Fragment>
       <div className="layout">{children}</div>
-    </>
+    </Fragment>
   );
 };
 
