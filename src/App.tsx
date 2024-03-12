@@ -43,7 +43,7 @@ const App = () => {
           gender={profileData.gender}
           longHair={profileData.longHair}
         />
-        <h1>Adrese</h1>
+        <h1>Neke ponuđene adrese</h1>
         <Grid marginBottom={4}>
           <Addresses addresses={profileData.addresses} />
         </Grid>
