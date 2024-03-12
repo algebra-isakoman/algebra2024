@@ -20,7 +20,7 @@ const profileData: ProfileType = {
       country: "Hrvatska",
       city: "Osijek",
       postCode: 31000,
-      street: "Vukovarska 31",
+      street: "Vukovarska 36",
     },
     {
       country: "Hrvatska",
