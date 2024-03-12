@@ -1,0 +1,9 @@
+.address {
+  border-radius: var(--border-rounded);
+  border: 1px solid var(--color-gray-400);
+  padding: 2rem;
+
+  &__name {
+    margin-bottom: 2rem;
+  }
+}

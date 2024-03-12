@@ -1,0 +1,23 @@
+.profile {
+  background-color: var(--color-gray-100);
+  padding: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: var(--border-rounded);
+  margin-bottom: 2rem;
+
+  &__img {
+    width: 15rem;
+    height: 15rem;
+    object-fit: cover;
+    border-radius: var(--border-circle);
+    margin-right: 3rem;
+  }
+  &__field {
+    margin-bottom: 1rem;
+    font-size: 1.4rem;
+    display: block;
+    align-items: center;
+  }
+}

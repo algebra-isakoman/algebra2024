@@ -1,0 +1,14 @@
+.section {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+
+  &__img {
+    display: block;
+    width: 100%;
+    height: 20rem;
+    object-fit: cover;
+  }
+  &__text {
+  }
+}
