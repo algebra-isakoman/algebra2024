@@ -1,6 +1,8 @@
 import Navigation from "./navigation";
 
-const Header = () => {
+type Props = {};
+
+const Header = ({}: Props) => {
   return (
     <>
       <header className="header">
